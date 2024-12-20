@@ -1,0 +1,15 @@
+How to run the code:
+
+I have demonstrated control for two level systems using RL, Based on works of Volodymyr Sivak(PPO model free RL method is base on his code at https://github.com/v-sivak) and Improving robustness of quantum feedback control with reinforcement learning by Manuel Guatto, Gian Antonio Susto, Francesco Ticozzi(https://github.com/ManuelGuatto/RL_4_Robust_QC/tree/main)from there I have pulled (Data based and Model based learning scenario),https://github.com/arthurostrauss/Quantum_Optimal_Control also this is reproduced version of strauss codes My resources were constrained so I have just implemented,control over a two level system, based on Guatto codes
+
+1.To impelement the DBS model for two level system: Run the Data_based_twolevel.ipynb with Qiskit,gym.in ipynb checkpoints folder
+
+2. To run the the MBS model, run the Model based two level.ipynb
+
+3. The data used in report is in Data2 file
+
+4. The codes are messed up  little bit, apologies for that. The lstm code from Sivak was not working due to some env issues with tf and some other lib compatibility issue So I have removed it.
+
+5. To reproduce the plots in report just do 1,2 they are based on python 3.10 env
+
+
